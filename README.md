@@ -2,12 +2,12 @@
 This repository contains a MATLAB-based project for designing and controlling a 3-axis manipulator named Alex. The manipulator's model was designed in SolidWorks and integrated with MATLAB using its URDF file. The system enables control through an Xbox controller or a slider interface, and the project also demonstrates the manipulator's forward kinematics.
 
 ## Features
-1. Xbox Controller Integration
+1. Xbox Controller Integration:
 Control the 3DOF manipulator using an Xbox controller.
 Setup requires files and instructions provided in the PPT by Jonathan Hoy.
-2. Forward Kinematics
+2. Forward Kinematics:
 Visualize the manipulator's pose by entering joint angles.
-3. Slider Control
+3. Slider Control:
 Use sliders to control each axis of the manipulator.
 
 ## Prerequisites
@@ -42,7 +42,12 @@ Load the manipulator model using MATLAB's robotics tools.
 Follow the steps outlined in Jonathan Hoy's PPT to set up the Xbox controller.
 Ensure all required files are added to your MATLAB path.
 
+### Step 4: Run the Program
+To use the Xbox controller: RUN xbox.m
+To visualize forward kinematics: RUN FK_Alex.m
+To control with sliders: RUN Slider_control_Alex.m
+
 ## Credits
-Manipulator Design: Alex model created in SolidWorks.
-URDF Integration: MATLAB Robotics System Toolbox.
+Manipulator Design: Alex model created in SolidWorks. < br / >
+URDF Integration: MATLAB Robotics System Toolbox.< br / >
 Xbox Controller Setup: Based on Jonathan Hoy's guide.

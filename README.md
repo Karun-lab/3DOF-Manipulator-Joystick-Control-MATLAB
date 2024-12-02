@@ -22,11 +22,11 @@ Xbox Controller Setup:
   Follow the instructions provided in the PPT by Jonathan Hoy. Ensure all required files mentioned in the PPT are available.
 ## Repository Contents
 ### Main Files
-Xbox Controller Control (xbox.m)
+Xbox Controller Control (xbox.m)  
 Use an Xbox controller to move the manipulator's joints interactively.
-Forward Kinematics (FK_Alex.m)
+Forward Kinematics (FK_Alex.m)  
 Enter joint angles to visualize the robot's pose in MATLAB.
-Slider Control (Slider_control_Alex.m)
+Slider Control (Slider_control_Alex.m)  
 Adjust three sliders to control each axis of the manipulator.
 
 ## Getting Started
@@ -43,8 +43,8 @@ Follow the steps outlined in Jonathan Hoy's PPT to set up the Xbox controller.
 Ensure all required files are added to your MATLAB path.
 
 ### Step 4: Run the Program
-To use the Xbox controller: RUN xbox.m
-To visualize forward kinematics: RUN FK_Alex.m
+To use the Xbox controller: RUN xbox.m  
+To visualize forward kinematics: RUN FK_Alex.m  
 To control with sliders: RUN Slider_control_Alex.m
 
 ## Credits

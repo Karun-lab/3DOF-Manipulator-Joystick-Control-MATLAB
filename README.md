@@ -12,14 +12,15 @@ Use sliders to control each axis of the manipulator.
 
 ## Prerequisites
 ### MATLAB Requirements
-MATLAB Versions: Tested on MATLAB R2022a, R2022b, and R2024a.
+MATLAB Versions: Tested on MATLAB R2022a, R2022b, and R2024a.  
 Toolbox: Robotics System Toolbox.
 ### Files and Resources
-URDF Files:
-  Alex-Main-URDF.csv
-  Alex-Main-URDF.urdf
-Xbox Controller Setup:
-  Follow the instructions provided in the PPT by Jonathan Hoy. Ensure all required files mentioned in the PPT are available.
+URDF Files:  
+Alex-Main-URDF.csv  
+Alex-Main-URDF.urdf  
+Xbox Controller Setup:  
+Follow the instructions provided in the PPT by Jonathan Hoy. Ensure all required files mentioned in the PPT are available.
+
 ## Repository Contents
 ### Main Files
 Xbox Controller Control (xbox.m)  

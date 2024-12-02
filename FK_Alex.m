@@ -1,3 +1,11 @@
+% Program: FK_Alex.m
+% Description: Control the 3DOF manipulator 'Alex' using an Xbox controller.
+% Author: Karun Ashok Kumar
+% GitHub: https://github.com/Karun-Lab/3DOF-Manipulator-Joystick-Control-MATLAB
+% Date: June 2023
+%
+% Usage:
+% - Ensure that the Robotics System Toolbox is installed.
 
 %show(alex)
 %interactiveGUI = interactiveRigidBodyTree(alex)

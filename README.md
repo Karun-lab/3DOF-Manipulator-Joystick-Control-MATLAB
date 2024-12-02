@@ -48,6 +48,6 @@ To visualize forward kinematics: RUN FK_Alex.m
 To control with sliders: RUN Slider_control_Alex.m
 
 ## Credits
-Manipulator Design: Alex model created in SolidWorks. 
-URDF Integration: MATLAB Robotics System Toolbox.
+Manipulator Design: Alex model created in SolidWorks.  
+URDF Integration: MATLAB Robotics System Toolbox.  
 Xbox Controller Setup: Based on Jonathan Hoy's guide.

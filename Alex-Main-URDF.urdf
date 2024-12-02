@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Alex-Main-URDF">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="1.3878E-17 0 0.012094"
+        rpy="0 0 0" />
+      <mass
+        value="0.23069" />
+      <inertia
+        ixx="0.00035583"
+        ixy="8.2284E-19"
+        ixz="3.4962E-20"
+        iyy="0.00035583"
+        iyz="4.6453E-21"
+        izz="0.00066108" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link1">
+    <inertial>
+      <origin
+        xyz="0.0047826 -0.00037087 0.054851"
+        rpy="0 0 0" />
+      <mass
+        value="0.51566" />
+      <inertia
+        ixx="0.00086335"
+        ixy="2.5615E-06"
+        ixz="-0.0001069"
+        iyy="0.00089568"
+        iyz="8.4753E-06"
+        izz="0.00078775" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/Link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/Link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint1"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="3.142"
+      effort="0.4"
+      velocity="1.5" />
+  </joint>
+  <link
+    name="Link2">
+    <inertial>
+      <origin
+        xyz="-0.062275 -0.10848 0.017182"
+        rpy="0 0 0" />
+      <mass
+        value="0.31482" />
+      <inertia
+        ixx="0.0015503"
+        ixy="-0.00085155"
+        ixz="3.9885E-06"
+        iyy="0.00055446"
+        iyz="6.9133E-06"
+        izz="0.0020444" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/Link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/Link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint2"
+    type="revolute">
+    <origin
+      xyz="-0.012009 0.001039 0.12441"
+      rpy="-1.5708 0 1.4931" />
+    <parent
+      link="Link1" />
+    <child
+      link="Link2" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="1.1"
+      velocity="1.5" />
+  </joint>
+  <link
+    name="Link3">
+    <inertial>
+      <origin
+        xyz="0.0012136 -0.036915 0.017742"
+        rpy="0 0 0" />
+      <mass
+        value="0.11504" />
+      <inertia
+        ixx="0.00010205"
+        ixy="2.5037E-06"
+        ixz="6.5492E-09"
+        iyy="2.5978E-05"
+        iyz="-1.9921E-07"
+        izz="0.00010488" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/Link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/Link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint3"
+    type="revolute">
+    <origin
+      xyz="-0.11895 -0.2068 -0.01564"
+      rpy="-3.1416 0 0" />
+    <parent
+      link="Link2" />
+    <child
+      link="Link3" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="3.14"
+      effort="1.1"
+      velocity="1.5" />
+  </joint>
+  <link
+    name="EE">
+    <inertial>
+      <origin
+        xyz="-0.00041849 0.012729 2.3592E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0060711" />
+      <inertia
+        ixx="1.048E-06"
+        ixy="1.27E-09"
+        ixz="1.3235E-23"
+        iyy="1.0094E-06"
+        iyz="2.7581E-24"
+        izz="1.048E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/EE.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Alex-Main-URDF/meshes/EE.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="EE"
+    type="continuous">
+    <origin
+      xyz="0.0058159 -0.1769 0.01775"
+      rpy="0 0 0" />
+    <parent
+      link="Link3" />
+    <child
+      link="EE" />
+    <axis
+      xyz="0.032858 -0.99946 0" />
+  </joint>
+</robot>
